@@ -11,6 +11,50 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-size: 14px;
+      background-color: #000;
+      color: white;
+    }
+    nav {
+      text-align: center;
+      background: #fffff0;
+    }
+    nav ul li {
+      font-size: 16px;
+      display: inline-block;
+      margin: 10px 30px;
+    }
+    nav ul li a {
+      font-weight: bold;
+    }
+    nav ul li a.selected {
+      color:#000080;
+    }
+    #logo {
+      padding: 30px 0;
+      text-align: center;
+    }
+    #logo img {
+      max-width: 250px;
+      border: 3px ridge #ffd700;
+    }
+    secction p a{
+      color :#40e0d0;
+    }
+    footer {
+      padding: 5px 20px;
+      font-size: 13px;
+      text-align: center;
+      background-color: #fffff0;
+      color: black;
+    }
+    </style>
   </head>
   <body>
     <header>
@@ -21,17 +65,24 @@
         </ul>
       </nav>
     </header>
+    <div id="logo">
+      <img src="profile1.jpg" alt="" />
+    </div>
     <div class="container">
       <secction>
         <h3>自己紹介</h3>
+        <br />
         <P>・上野　信行</P>
         <p>・熊本県在住</p>
         <p>・車、バイク等乗り物が好きです。</p>
+        <p><a href="https://github.com/nobuyukiueno">・GitHubマイページ</a></p>
         <br />
-        <h3></h3>
       </secction>
     </div>
-    <h1>テスト</h1>
-    <p>pushテスト</p>
+    <footer>
+        <p>&copy; 2015 Nobuyuki Ueno.</p>
+    </footer>
   </body>
 </html>
+
+
