@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> nobuyukiueno</title>
+    <title> app</title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
@@ -41,11 +41,9 @@
       text-align: center;
     }
     #logo img {
-      max-width: 250px;
+      max-width: 150px;
       border: 3px ridge #ffd700;
-    }
-    secction p a{
-      color :#40e0d0;
+      border-radius: 100%;
     }
     footer {
       padding: 5px 20px;
@@ -56,27 +54,45 @@
     }
     </style>
   </head>
-  <body>
+<body>
     <header>
       <nav>
         <ul>
-          <li><a href="index.html" class="selected">Home</a></li>
-          <li><a href="app.html">App</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="app.html" class="selected">App</a></li>
         </ul>
       </nav>
     </header>
-    <div id="logo">
-      <img src="profile1.jpg" alt="" />
-    </div>
     <div class="container">
-      <secction>
-        <br />
-        
-        <br />
-      </secction>
+      <div class="row">
+         <div class="col-sm-6" style="background-color:black;">
+          <div id="logo">
+            <img src="app1.jpg" alt="" />
+          </div>
+         </div>
+         <div class="col-sm-6" style="background-color:black;">
+          <h2>作成アプリ紹介</h2>
+          <p>アプリ内容記載</p>
+         </div>
+      </div>
     </div>
+    <hr />
+    <div class="container">
+      <div class="row">
+         <div class="col-sm-6" style="background-color:black;">
+          <div id="logo">
+            <img src="app2.jpg" alt="" />
+          </div>
+         </div>
+         <div class="col-sm-6" style="background-color:black;">
+          <h2>作成アプリ紹介2</h2>
+          <p>アプリ内容記載</p>
+         </div>
+      </div>
+    </div>
+    <hr />
     <footer>
         <p>&copy; 2015 Nobuyuki Ueno.</p>
     </footer>
-  </body>
+</body>
 </html>
